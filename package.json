@@ -1,0 +1,14 @@
+{
+  "name": "snowpack-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "description": "",
+  "scripts": {
+    "start": "yarn workspace game start",
+    "build": "yarn workspace game build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
